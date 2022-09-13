@@ -1,1 +1,35 @@
 
+cowsay Configure me!
+ _______________ 
+< Configure me! >
+ --------------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+ pwd
+/home/runner/cli-basics-Aaron-Chung23
+ mkdir CLIBasicsFolder
+ ls
+CLIBasicsFolder  README.md  replit.nix  TerminalSession.txt
+ cd CLIBasicsFolder
+ touch myfile.txt
+ echo ICS 4Ub Aaron Chung >> myfile.txt
+ cat myfile.txt
+ICS 4Ub Aaron Chung
+ cp myfile.txt myfile_copy.txt
+ ls
+myfile_copy.txt  myfile.txt
+ mv myfile_copy.txt myfile2.txt
+ mv myfile2.txt ../myfile2.txt
+ cd ..
+ ls
+CLIBasicsFolder  README.md   TerminalSession.txt
+myfile2.txt  replit.nix
+ rm -i CLIBasicsFolder/*
+rm: remove regular file 'CLIBasicsFolder/myfile.txt'? y
+ rmdir CLIBasicsFolder
+ ls
+myfile2.txt  README.md  replit.nix  TerminalSession.txt
+ 
